@@ -1,6 +1,6 @@
 ---
 layout: post
-title: access your virtual machine while connected to vpn?
+title: localhost while vpn is on?
 ---
 
 {{ page.title }}
