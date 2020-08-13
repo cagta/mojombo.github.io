@@ -24,7 +24,6 @@ I think that's the main difference between leaders and managers. The managers te
 
 the challenge is a requirement for me. for others, it can be unwanted. just embrace diversity. 
 
-<iframe width="1106" height="622" src="https://www.youtube.com/embed/p12geY4bQWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="750" height="450" src="https://www.youtube.com/embed/p12geY4bQWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 PS: most of my comments can seem like valid within the Turkish business world if you consider that I'm a member of different international teams since graduation I think the scope of my comments may include valid parts in general. 
