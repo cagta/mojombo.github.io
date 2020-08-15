@@ -8,13 +8,13 @@ title: n2bd - processes
 
 <p class="meta">15 August 2020 - Istanbul</p>
 
-if you read any of my previous blogs, [the challenge](https://www.cagataytanyildiz.com/2020/07/03/the-challenge.html), [the dilemma of the corporate](https://www.cagataytanyildiz.com/2020/06/16/the-dilemma-of-the-corporate.html) or [feeling tired](https://www.cagataytanyildiz.com/2020/03/14/feeling-tired.html), you can say that I have problems in my career and you are right. I was searching alternative ways to handle my complains, I found [this](https://medium.com/@enbilgin/what-i-have-learned-about-landing-a-job-in-tech-2-be-a-marathon-runner-41974beb3f46) marvelous article's of [Enes Bilgin](https://www.linkedin.com/in/enesbilgin/). it was the last drop on glass. I conviced myself that complaining is not gonna help me. I have to admit that, complaining is way easier than doing something for change. so I planned some side gigs for me for sharpaning my skills.
+if you read any of my previous blogs, [the challenge](https://www.cagataytanyildiz.com/2020/07/03/the-challenge.html), [the dilemma of the corporate](https://www.cagataytanyildiz.com/2020/06/16/the-dilemma-of-the-corporate.html) or [feeling tired](https://www.cagataytanyildiz.com/2020/03/14/feeling-tired.html), you can say that I have problems in my career and you are right. I was searching for alternative ways to handle my complains, I found [this](https://medium.com/@enbilgin/what-i-have-learned-about-landing-a-job-in-tech-2-be-a-marathon-runner-41974beb3f46) marvelous article of [Enes Bilgin](https://www.linkedin.com/in/enesbilgin/). it was the last drop on the glass. I convinced myself that complaining is not gonna help me. I have to admit that, complaining is way easier than doing something for change. so I planned some side gigs for me for sharpening my skills.
 
-today I would like to introduce my new series "**note to backend developer (n2bd)**". with this series I'm going to write about some valuable topics from my perpective. sometimes we will talk about some sections of the state of art course books. sometimes we will dig some article from internet. if you have anything to suggest feel free to reach me over [Telegram](https://t.me/cagtaa).
+today I would like to introduce my new series "**note to backend developer (n2bd)**". with this series I'm going to write about some valuable topics from my perpective. sometimes we will talk about some sections of the state of art course books. sometimes we will dig some article the internet. if you have anything to suggest feel free to reach me over [Telegram](https://t.me/cagtaa).
 
-as a starting point I would like to refresh my memory on modern operating systems. it was one of my favorite course back in college. I think I'm the second most heard person on that course's audio recording because of my questions.
+as a starting point, I would like to refresh my memory on modern operating systems. it was one of my favorite courses back in college. I think I'm the second most heard person on that course's audio recording because of my questions.
 
-when it comes to operating systems [Tanenbaum's Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-2nd-GOAL/dp/0130313580) book is one of the best resource that I can refer. what I'm planning to do is I will study one subject at a time and I will share my notes along this journey as a blog post for each topic. after all this long introduction let's start with processes.
+when it comes to operating systems [Tanenbaum's Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-2nd-GOAL/dp/0130313580) book is one of the best resource that I can refer to. what I'm planning to do is I will study one subject at a time and I will share my notes along this journey as a blog post for each topic. after all this long introduction let's start with processes.
 
 # processes
 
@@ -22,7 +22,7 @@ when it comes to operating systems [Tanenbaum's Modern Operating Systems](https:
 
 > **a program** an algorithm expressed in some suitable notation.
 
-> **a deamon** processes that stay in background to handle some activity such as email, web pages etc.
+> **a daemon** process that stays in background to handle some activities such as email, web pages, etc.
 
 ## 1 - process creation
 
@@ -31,9 +31,9 @@ four principal events that cause processes to be created:
 * system initialization
 * execution of a process creation system call by a running process
 * a user request to create a new proccess.
-    - opening browser, email etc.
+    - opening browser, email, etc.
 * initiation of a batch job.
-    - main frame runs following job from the queue
+    - mainframe runs following job from the queue
 
 ### unix: fork
 
@@ -84,7 +84,7 @@ possible transaction between these states:
 
 ## 5 - implementing process model
 
-to implement the process model, the operating system maintains a table, which called as **process table**, with one entry per process. each entry known as **process control block**.
+to implement the process model, the operating system maintains a table, which called a **process table**, with one entry per process. each entry is known as a  **process control block**.
 
 some of the fields of a typical process table entry:
 
