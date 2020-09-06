@@ -10,7 +10,7 @@ title: recording podcast?
 
 If you prefer you can listen this blog post
 <audio controls>
-  <source src="https://www.cagataytanyildiz.com/_posts_recordings/2020-09-06-recording-podcast.mp3" type="audio/mp3">
+  <source src="https://raw.githubusercontent.com/cagta/cagta.github.io/master/_posts_recordings/2020-09-06-recording-podcast.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
 
