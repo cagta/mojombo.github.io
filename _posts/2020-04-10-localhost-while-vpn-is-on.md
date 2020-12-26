@@ -1,6 +1,7 @@
 ---
 layout: post
 title: localhost while vpn is on?
+tag: live
 ---
 
 {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: feeling tired
+tag: live
 ---
 
 {{ page.title }}

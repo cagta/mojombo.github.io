@@ -1,6 +1,7 @@
 ---
 layout: post
 title: the challenge
+tag: live
 ---
 
 {{ page.title }}

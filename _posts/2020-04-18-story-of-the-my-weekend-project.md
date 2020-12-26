@@ -1,6 +1,7 @@
 ---
 layout: post
 title: story of the my weekend project!
+tag: live
 ---
 
 {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: recording podcast?
+tag: live
 ---
 
 {{ page.title }}

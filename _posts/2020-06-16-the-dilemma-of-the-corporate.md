@@ -1,6 +1,7 @@
 ---
 layout: post
 title: the dilemma of the corporate
+tag: live
 ---
 
 {{ page.title }}

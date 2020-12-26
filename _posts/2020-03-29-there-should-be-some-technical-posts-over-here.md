@@ -1,6 +1,7 @@
 ---
 layout: post
 title: there should be some technical posts over here
+tag: live
 ---
 
 {{ page.title }}

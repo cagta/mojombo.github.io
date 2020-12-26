@@ -1,6 +1,7 @@
 ---
 layout: post
 title: my first firefox extension - tab2hyperlink
+tag: live
 ---
 
 {{ page.title }}
